@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  background-color: #F9F9F9;
+  font-size: 14px;
+  font-family: Arial,sans-serif;
+}
+.zargetAPIwrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.zargetVision{
+  height: 24px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  color: rgba(0,0,0,0.87);
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.center-block{
+  display: block;
+  margin: auto;
+}
+.installZAPI{
+  width: 769px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  margin: 0px auto 30px auto;
+}
+.ZcontentWrapper{
+  padding-left: 125px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+.inputZcontiner{
+  display: inline-flex;
+}
+.ZAPIinstallstep{
+  margin-left: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ZAPIinstallstep li, .ZAPIsubheading{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(0,0,0,0.54);
+}
+.ZAPIinstallstep li a{
+  color: rgba(0,0,0,0.54);
+}
+.Zapiinputbox{
+  width: 343px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.38);
+  border-radius: 4px;
+  font-size: 14px;
+  color:rgba(0,0,0,0.87);
+  padding: 0 11px;
+}
+.ZAPIbtn{
+  background-color: #00B8CC;
+  border-radius: 4px;
+  margin-left: 10px;
+  border: transparent;
+  display: inline-block;
+  line-height: 16px;
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 16px;
+}
+.ZAPIbtn:hover{
+  background-color: #008a99;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+.ZAPIwarning{
+  font-size: 14px;
+  color: #FF4D00;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.ZAPIsuccess{
+  color: #00994D;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.Zloginbtn{
+  width: 198px;
+  border: 1px solid #008A99;
+  border-radius: 4px;
+  padding: 11px 0;
+  font-size: 14px;
+  background: transparent;
+  color: #008A99;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+}
+.Zloginbtn:hover{
+  background-color: #008a99;
+  color: #fff;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+.text-center{
+  text-align: center;
+}
+.ZAPIhelp{
+  margin-top: 37px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 17px;
+  color: rgba(0,0,0,0.54);
+}
+.ZAPIhelp span{
+  color:#008A99;
+}
+
+.ZAPIsubheading{
+  margin: 0;
+  padding: 0;
+}
